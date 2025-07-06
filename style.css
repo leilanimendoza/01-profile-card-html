@@ -1,0 +1,67 @@
+body {
+  background-color: lightblue; /* Sets the page background color */
+  text-align: center; /* Centers text horizontally in the body */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Sets the default font for the page */
+}
+
+.card {
+  background: #fff; /* Sets card background to white */
+  border: 2px solid #876a42; /* Adds a light brown border */
+  border-radius: 16px; /* Rounds the corners of the card */
+  padding: 32px 24px; /* Adds space inside the card */
+  max-width: 500px; /* Limits the card's width */
+  margin: 48px auto; /* Centers the card and adds vertical space */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Adds a subtle shadow for depth */
+}
+
+.card img {
+  width: 130px; /* Make image bigger */
+  height: 130px;
+  object-fit: cover; /* Ensures image covers the area */
+  border-radius: 50%; /* Makes image circular */
+  margin-top: 8px; /* Space above image */
+}
+
+h1 {
+  font-size: 64px; /* Makes the main heading large */
+  color: #523205; /* Sets heading color to dark brown */
+  font-family: 'Dancing Script', 'Brush Script MT', cursive, 'Segoe Script', 'Comic Sans MS', sans-serif; /* Uses a thin, cursive font */
+  letter-spacing: 1px; /* Slightly spaces out the letters */
+  font-weight: 400; /* Sets normal font weight */
+  margin-bottom: 8px; /* Reduces space below the main heading */
+}
+
+h2 {
+  font-size: 32px; /* Makes the subheading smaller than h1 */
+  color: #876a42; /* Sets subheading color to light brown */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Uses a clean, sans-serif font */
+  text-transform: uppercase; /* Makes all letters uppercase */
+  letter-spacing: 2px; /* Adds more space between letters */
+  margin-top: 0; /* Removes space above the subheading */
+}
+
+p {
+  font-size: 20px; /* Sets paragraph text size */
+  line-height: 1.6; /* Increases space between lines for readability */
+}
+
+ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 20px 0 0 0; /* Adds space above the list */
+}
+
+ul li {
+  margin: 10px 0; /* Adds vertical spacing between items */
+}
+
+ul a {
+  text-decoration: none; /* Removes underline from links */
+  color: #523205; /* Matches h1 color for consistency */
+  font-size: 18px; /* Slightly larger font for links */
+  transition: color 0.2s;
+}
+
+ul a:hover {
+  color: #876a42; /* Light brown on hover */
+}
